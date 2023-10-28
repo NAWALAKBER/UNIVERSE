@@ -1,0 +1,63 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, centered text, and white text color */
+.h1 {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the profile image with a border and rounded shape */
+.img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #3498db;
+    border-radius: 50%;
+}
+
+/* Style the section headings with background color and padding */
+.h2 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the horizontal rules to separate sections */
+.hr {
+    border: 1px solid #3498db;
+}
+
+/* Style the paragraphs and lists */
+.p, ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Style the links in the "More About Me" section */
+.a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer with background color, centered text, and white text color */
+.footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
